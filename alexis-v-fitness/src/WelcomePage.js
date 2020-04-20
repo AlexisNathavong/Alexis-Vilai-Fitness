@@ -1,7 +1,7 @@
 import React from 'react';
 import { WelcomeHeader } from './StyledWidgets';
-import Card from 'react-bootstrap/Card'
-import CardDeck from 'react-bootstrap/CardDeck'
+import Card from 'react-bootstrap/Card';
+import CardDeck from 'react-bootstrap/CardDeck';
 
 
 const WelcomePage = () => {
@@ -12,8 +12,8 @@ const WelcomePage = () => {
                 <h1>Alexis Vilai Fitness</h1>
             </WelcomeHeader>
 
-            <CardDeck>
-                <Card>
+            <CardDeck margin-top='60px'>
+                <Card marginTop='60px'>
                     <Card.Img variant="top" src="holder.js/100px160" />
                     <Card.Body>
                         <Card.Title>Card title</Card.Title>
@@ -21,6 +21,10 @@ const WelcomePage = () => {
                             This is a wider card with supporting text below as a natural lead-in to
                             additional content. This content is a little bit longer.
                         </Card.Text>
+                    </Card.Body>
+                    <Card.Body>
+                        <Card.Link href="/workout">Card Link</Card.Link>
+                        <Card.Link href="#">Another Link</Card.Link>
                     </Card.Body>
                     <Card.Footer>
                         <small className="text-muted">Last updated 3 mins ago</small>

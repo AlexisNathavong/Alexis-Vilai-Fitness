@@ -4,6 +4,8 @@ import { Link } from 'react-router-dom';
 
 //Styling
 import { Nav } from './StyledWidgets';
+import AboutPage from './AboutPage';
+import WelcomePage from './WelcomePage';
 
 const AppRouter = () => {
 
@@ -16,7 +18,14 @@ const AppRouter = () => {
                     <Link to ='/workout'>Workout</Link>
                 </div>
             </Nav>
+
+            <Switch>
+                <Route exact path='/' component={WelcomePage} />
+                <Route path='/aboutpage' component={AboutPage} />
+            </Switch>
         </Router>
+
+
     )
 }
 
