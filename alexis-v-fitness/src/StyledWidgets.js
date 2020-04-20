@@ -36,4 +36,6 @@ export const Nav = styled.div`
 export const WelcomeHeader = styled.h1`
     color: #0A235C;
     font-family: gautreaux, sans-serif;
+    margin-top: 50px;
+    margin-bottom: 80px;
 `;
