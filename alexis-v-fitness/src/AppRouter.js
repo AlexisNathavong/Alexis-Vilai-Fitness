@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom';
 import { Nav } from './StyledWidgets';
 import AboutPage from './AboutPage';
 import WelcomePage from './WelcomePage';
+import WorkoutPage from './WorkoutPage';
 
 const AppRouter = () => {
 
@@ -15,13 +16,14 @@ const AppRouter = () => {
                 <div className='app-router'>
                     <Link to ='/'>Home</Link>
                     <Link to ='/aboutpage'>About</Link>
-                    <Link to ='/workout'>Workout</Link>
+                    <Link to ='/workoutpage'>Workout</Link>
                 </div>
             </Nav>
 
             <Switch>
                 <Route exact path='/' component={WelcomePage} />
                 <Route path='/aboutpage' component={AboutPage} />
+                <Route path='/workoutpage' component={WorkoutPage} />
             </Switch>
         </Router>
 
