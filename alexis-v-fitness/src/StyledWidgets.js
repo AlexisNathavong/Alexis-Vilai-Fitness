@@ -8,6 +8,7 @@ export const Nav = styled.div`
     box-shadow: 5px 5px 8px #dddddd;
     height: 100px;
     text-align: center;
+    margin-bottom: 80px;
 
     a {
         display: flex;
@@ -29,6 +30,7 @@ export const Nav = styled.div`
         flex-direction: row;
         margin-top: 40px;
         justify-content: space-evenly;
+        
     }
 `;
 
@@ -38,4 +40,17 @@ export const WelcomeHeader = styled.h1`
     font-family: gautreaux, sans-serif;
     margin-top: 50px;
     margin-bottom: 80px;
+`;
+
+// AboutPage
+export const CardOne = styled.div`
+    margin: 0 auto;
+    width: 90%;
+    box-shadow: 8px 8px 8px 8px;
+`;
+
+export const CardTwo = styled.div`
+    margin-top: 30px;
+    margin: 0 auto;
+    width: 90%;
 `;
