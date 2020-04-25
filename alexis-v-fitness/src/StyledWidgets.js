@@ -9,6 +9,7 @@ export const Nav = styled.div`
     height: 100px;
     text-align: center;
     margin-bottom: 80px;
+    color: red;
 
     a {
         display: flex;
