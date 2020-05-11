@@ -47,11 +47,24 @@ export const WelcomeHeader = styled.h1`
 export const CardOne = styled.div`
     margin: 0 auto;
     width: 90%;
-    box-shadow: 8px 8px 8px 8px;
 `;
 
 export const CardTwo = styled.div`
     margin-top: 30px;
     margin: 0 auto;
     width: 90%;
+    height: 600px;
+    box-shadow: 5px 5px 5px 5px #dfdfdf;
+
+`;
+
+export const AboutContext = styled.div`
+    font-weight: bold;
+    margin-top: 70px;
+    p {
+        height: 90px;
+        width: 90%;
+        margin: 0 auto;
+        
+    }
 `;

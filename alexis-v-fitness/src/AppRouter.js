@@ -3,9 +3,9 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Link } from 'react-router-dom';
 
 //Styling
-import { Nav } from './StyledWidgets';
-import AboutPage from './AboutPage';
-import WelcomePage from './WelcomePage';
+import { Nav } from './components/StyledWidgets';
+import AboutPage from './components/AboutPage';
+import WelcomePage from './components/WelcomePage';
 import WorkoutPage from './WorkoutPage';
 
 const AppRouter = () => {
