@@ -1,13 +1,13 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
-import { CardOne, CardTwo, AboutContext } from './StyledWidgets';
+import { CardOne, CardTwo, AboutContext, Body } from './StyledWidgets';
 
 
 const AboutPage = () => {
 
     return (
-        <div>
+        <Body>
             <CardDeck width='100%'>
                 <CardOne>
                     
@@ -34,7 +34,7 @@ const AboutPage = () => {
                 </CardTwo>
                 
             </CardDeck>
-        </div>
+        </Body>
     )
 }
 
