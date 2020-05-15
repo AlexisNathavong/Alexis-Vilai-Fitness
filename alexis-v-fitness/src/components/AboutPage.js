@@ -7,7 +7,7 @@ import { CardOne, CardTwo, AboutContext } from './StyledWidgets';
 const AboutPage = () => {
 
     return (
-        <div>
+        
             <CardDeck width='100%'>
                 <CardOne>
                     
@@ -34,7 +34,7 @@ const AboutPage = () => {
                 </CardTwo>
                 
             </CardDeck>
-        </div>
+        
     )
 }
 

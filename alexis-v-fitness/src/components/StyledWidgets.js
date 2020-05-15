@@ -68,3 +68,10 @@ export const AboutContext = styled.div`
         
     }
 `;
+
+export const Body = styled.div`
+    background-color: red;
+    body {
+        background-color: red;
+    }
+`;
