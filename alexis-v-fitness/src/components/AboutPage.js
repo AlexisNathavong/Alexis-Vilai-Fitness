@@ -1,13 +1,14 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
-import { CardOne, CardTwo, AboutContext } from './StyledWidgets';
+import { CardOne, CardTwo, AboutContext, Icons } from './StyledWidgets';
+import { SocialIcon } from 'react-social-icons';
 
 
 const AboutPage = () => {
 
     return (
-        
+        <div>
             <CardDeck width='100%'>
                 <CardOne>
                     
@@ -34,7 +35,15 @@ const AboutPage = () => {
                 </CardTwo>
                 
             </CardDeck>
-        
+
+            <footer className="social-icons">
+                    <Icons>   
+                        <SocialIcon url="mailto:alexisvilaifitness@gmail.com?subject=here" style={{ height: 40, width: 70 }} fgColor="#FF0505" bgColor="#4E4E4E" target="_blank"/>   
+                        <SocialIcon url="https://www.instagram.com/alexisvilaifitness" style={{ height: 40, width: 70 }} fgColor="#FFFFFF" bgColor="#000000" target="_blank"/>    
+                    </Icons>
+                    
+            </footer>
+        </div>
     )
 }
 
