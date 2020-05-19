@@ -75,3 +75,26 @@ export const Body = styled.div`
         background-color: red;
     }
 `;
+
+
+//Footer
+export const Icons = styled.div`
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 100px;
+    
+    @media (max-width: 500px) {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 20px;
+    }
+    @media (max-width: 800px) {
+        display: flex;
+        justify-content: center;
+        margin: 0 auto;
+        margin-top: 20px;
+        
+    }
+`;
