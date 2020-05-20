@@ -36,11 +36,13 @@ export const Nav = styled.div`
 `;
 
 //WelcomePage
-export const WelcomeHeader = styled.h1`
+export const WelcomeHeader = styled.div`
     color: #0A235C;
     font-family: gautreaux, sans-serif;
     margin-top: 50px;
     margin-bottom: 80px;
+    font-size: 50px;
+    text-align: center;
 `;
 
 // AboutPage

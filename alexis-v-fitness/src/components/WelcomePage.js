@@ -10,7 +10,7 @@ const WelcomePage = () => {
     return (
         <div>
             <WelcomeHeader>
-                <h1>Alexis Vilai Fitness</h1>
+                Alexis Vilai Fitness
             </WelcomeHeader>
 
             <CardDeck margin-top='60px'>
