@@ -45,6 +45,20 @@ export const WelcomeHeader = styled.div`
     text-align: center;
 `;
 
+export const IMG = styled.div`
+.img-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+}
+`;
+
 // AboutPage
 export const CardOne = styled.div`
     margin: 0 auto;
