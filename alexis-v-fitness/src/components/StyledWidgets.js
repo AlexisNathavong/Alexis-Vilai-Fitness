@@ -47,7 +47,7 @@ export const WelcomeHeader = styled.div`
 
 export const IMG = styled.div`
 .img-container {
-    width: 100%;
+    width: 98%;
     display: flex;
     justify-content: center;
     margin: 0 auto;

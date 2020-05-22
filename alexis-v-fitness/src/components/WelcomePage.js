@@ -44,6 +44,10 @@ const WelcomePage = () => {
                             content.{' '}
                         </Card.Text>
                     </Card.Body>
+                    <Card.Body>
+                        <Card.Link href="/workout">Workout</Card.Link>
+                        <Card.Link href="https://youtu.be/kKT2RVW6RJU" target="_blank">Workout Demo</Card.Link>
+                    </Card.Body>
                 </Card>
                 <Card>
                     <Card.Body>
@@ -58,6 +62,10 @@ const WelcomePage = () => {
                             additional content. This card has even longer content than the first to
                             show that equal height action.
                         </Card.Text>
+                    </Card.Body>
+                    <Card.Body>
+                        <Card.Link href="/workout">Workout</Card.Link>
+                        <Card.Link href="https://youtu.be/kKT2RVW6RJU" target="_blank">Workout Demo</Card.Link>
                     </Card.Body>
                 </Card>
             </CardDeck>
