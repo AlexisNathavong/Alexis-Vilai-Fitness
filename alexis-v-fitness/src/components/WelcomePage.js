@@ -1,5 +1,5 @@
 import React from 'react';
-import { WelcomeHeader, Icons, IMG } from './StyledWidgets';
+import { WelcomeHeader, Icons, IMG, Welcome } from './StyledWidgets';
 import Card from 'react-bootstrap/Card';
 import CardDeck from 'react-bootstrap/CardDeck';
 import { SocialIcon } from 'react-social-icons';
@@ -12,6 +12,12 @@ const WelcomePage = () => {
             <WelcomeHeader>
                 Alexis Vilai Fitness
             </WelcomeHeader>
+
+            <Welcome>
+                <div classname='welcome'>
+                    <p>Welcome to Alexis Vilai Fitness where I share my fitness journey! This is to help support or motivate others to get and stay healthy.</p>
+                </div>
+            </Welcome>
 
             <CardDeck margin-top='60px'>
                 <Card marginTop='60px'>

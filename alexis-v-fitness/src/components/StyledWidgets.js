@@ -45,6 +45,15 @@ export const WelcomeHeader = styled.div`
     text-align: center;
 `;
 
+export const Welcome = styled.div`
+    width: 100%;
+    p {
+       text-align: center; 
+    }
+   
+    
+`;
+
 export const IMG = styled.div`
 .img-container {
     width: 98%;
