@@ -69,6 +69,20 @@ img {
 `;
 
 // AboutPage
+export const AboutIMG = styled.div`
+.img-container {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+}
+`;
+
 export const CardOne = styled.div`
     margin: 0 auto;
     width: 90%;
@@ -77,18 +91,19 @@ export const CardOne = styled.div`
 export const CardTwo = styled.div`
     margin-top: 30px;
     margin: 0 auto;
-    width: 90%;
-    height: 600px;
+    width: 65%;
+    height: 800px;
     box-shadow: 5px 5px 5px 5px #dfdfdf;
 
 `;
 
 export const AboutContext = styled.div`
     font-weight: bold;
+    
     margin-top: 70px;
     p {
-        height: 90px;
-        width: 90%;
+        height: 200px;
+        width: 60%;
         margin: 0 auto;
         
     }
