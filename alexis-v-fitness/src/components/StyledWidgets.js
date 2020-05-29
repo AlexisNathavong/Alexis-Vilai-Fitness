@@ -102,7 +102,7 @@ export const AboutContext = styled.div`
     
     margin-top: 70px;
     p {
-        height: 200px;
+        height: 300px;
         width: 60%;
         margin: 0 auto;
         
