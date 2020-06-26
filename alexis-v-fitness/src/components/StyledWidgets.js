@@ -100,7 +100,7 @@ export const CardTwo = styled.div`
 export const AboutContext = styled.div`
     font-weight: bold;
     
-    margin-top: 75px;
+    margin-top: 70px;
     p {
         height: 300px;
         width: 60%;
